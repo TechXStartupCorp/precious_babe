@@ -1,0 +1,43 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "index.json",
+  "context": {
+    "market": "ca"
+  },
+  "sections": {
+    "featured_collection1": {
+      "settings": {
+        "collection": "all-products",
+        "title": "Shop all"
+      }
+    },
+    "collection_list": {
+      "blocks": {
+        "featured_collection1": {
+          "settings": {
+            "collection": "footwear"
+          }
+        },
+        "featured_collection2": {
+          "settings": {
+            "collection": "accessories"
+          }
+        },
+        "featured_collection3": {
+          "settings": {
+            "collection": "baby-clothing"
+          }
+        }
+      },
+      "settings": {}
+    }
+  }
+}

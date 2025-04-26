@@ -1,0 +1,32 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "product.json",
+  "context": {
+    "market": "ca"
+  },
+  "sections": {
+    "main": {
+      "settings": {},
+      "blocks": {
+        "collapsible-row-1": {
+          "settings": {
+            "content": "<p>✔️ <strong>Traditional Flavors</strong> – A delicious assortment of classic <strong>Eid al-Fitr</strong> sweets, including <strong>baklava</strong>, <strong>ma’amoul</strong>, and other festive treats.<br/><br/>✔️ <strong>Freshly Made</strong> – Crafted with the finest ingredients for authentic, mouth-watering taste.<br/><br/>✔️ <strong>Perfect for Sharing</strong> – Ideal for family gatherings, Iftar celebrations, or gifting loved ones during Eid.<br/><br/>✔️ <strong>Festive Delight</strong> – The perfect way to end Ramadan with sweet indulgence and joy.<br/><br/>✔️ <strong>Carefully Packaged</strong> – Each sweet is delicately packaged to preserve freshness and quality.</p>"
+          }
+        },
+        "collapsible-row-0": {
+          "settings": {
+            "content": "<p>🍯 <strong>Ingredients:</strong> Premium-quality <strong>nuts</strong>, <strong>honey</strong>, <strong>sugar</strong>, <strong>dates</strong>, and <strong>flour</strong>, combined with aromatic <strong>spices</strong> like cinnamon and cardamom.<br/><br/>⚠️ <strong>Storage:</strong> Keep in a cool, dry place to preserve freshness. For best results, consume within 2 weeks of purchase.</p><p>🛍 <strong>Add a sweet touch to your Eid celebrations – Order your Eid al-Fitr Sweets now!</strong> ✨</p>"
+          }
+        }
+      }
+    }
+  }
+}
