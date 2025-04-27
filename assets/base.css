@@ -6,7 +6,11 @@
   --focused-base-outline: 0.2rem solid rgba(var(--color-foreground), 0.5);
   --focused-base-outline-offset: 0.3rem;
   --focused-base-box-shadow: 0 0 0 0.3rem rgb(var(--color-background)), 0 0 0.5rem 0.4rem rgba(var(--color-foreground), 0.3);
-}
+  --color-charcoal: #1C1C1E; 
+  --color-header: #F8F8F7;
+  --color-slate-text: #2C2C2E;
+  --color-white-text: #F5F5F5;
+  }
 
 .product-card-wrapper .card,
 .contains-card--product {
@@ -1194,10 +1198,16 @@ button.shopify-payment-button__button--unbranded {
   --shadow-blur-radius: var(--buttons-shadow-blur-radius);
   --shadow-opacity: var(--buttons-shadow-opacity);
   --shadow-visible: var(--buttons-shadow-visible);
-  --border-offset: var(--buttons-border-offset); /* reduce radius edge artifacts */
-  --border-opacity: calc(1 - var(--buttons-border-opacity));
-  border-radius: var(--buttons-radius-outset);
+  /* --border-offset: var(--buttons-border-offset); */
+  /* --border-opacity: calc(1 - var(--buttons-border-opacity)); */
+  /* border-radius: var(--buttons-radius-outset); */
   position: relative;
+  /* background-color: #F44336 !important; */
+  /* background-color:#FF7043 !important; */
+  /* background-color:#42A5F5 !important; */
+  background-color:#42A5F5 !important;
+  
+  /* color: black !important; */
 }
 
 .button,
