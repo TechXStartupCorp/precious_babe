@@ -1,6 +1,7 @@
 <link rel="stylesheet" href="{{ 'component-list-menu.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-search.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-menu-drawer.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'header.css' | asset_url }}" media="print" onload="this.media='all'">
 <link
   rel="stylesheet"
   href="{{ 'component-cart-notification.css' | asset_url }}"
@@ -17,6 +18,15 @@
 {%- endif -%}
 
 <style>
+
+.header {
+    background-color: var(--color-soft-white) !important;
+  }
+  
+  .header span, .header__heading-logo-wrapper, h1 {
+    color: var(--color-dark-text) !important; 
+  }
+
   header-drawer {
     justify-self: start;
     margin-left: -1.2rem;
@@ -36,9 +46,7 @@
     }
   {%- endif -%}
 
-   .header {
-    background-color: red !important;
-  }
+ 
 
   .menu-drawer-container {
     display: flex;

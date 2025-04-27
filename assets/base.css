@@ -6,6 +6,9 @@
   --focused-base-outline: 0.2rem solid rgba(var(--color-foreground), 0.5);
   --focused-base-outline-offset: 0.3rem;
   --focused-base-box-shadow: 0 0 0 0.3rem rgb(var(--color-background)), 0 0 0.5rem 0.4rem rgba(var(--color-foreground), 0.3);
+  --color-dark-text: #2B2C2D; 
+  --color-soft-charcoal: #1C1C1E; 
+  --color-soft-white: #F8F8F7; 
 }
 
 .product-card-wrapper .card,
@@ -2310,6 +2313,16 @@ input[type='checkbox'] {
 }
 
 /* section-header */
+
+/* .header {
+  background-color: white !important;
+}
+
+.header span, div, h1 {
+  color: red !important;
+} */
+
+
 .section-header.shopify-section-group-header-group {
   z-index: 3;
 }
