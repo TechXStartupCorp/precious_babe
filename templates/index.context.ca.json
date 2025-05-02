@@ -13,12 +13,6 @@
     "market": "ca"
   },
   "sections": {
-    "featured_collection1": {
-      "settings": {
-        "collection": "all-products",
-        "title": "Shop all"
-      }
-    },
     "collection_list": {
       "blocks": {
         "featured_collection1": {

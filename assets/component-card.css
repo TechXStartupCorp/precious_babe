@@ -62,6 +62,9 @@
     rgba(var(--color-shadow), var(--shadow-opacity));
 }
 
+.card__inner {
+  --ratio-percent: 100% !important; 
+}
 /* Needed for gradient continuity with or without animation, the transform scopes the gradient to its container which happens already when animation are turned on */
 .card--card.gradient,
 .card__inner.gradient {
