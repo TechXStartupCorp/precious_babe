@@ -18,13 +18,13 @@
             "badge_text_1": "Badge 1",
             "badge_text_2": "Badge 2",
             "heading": "Your precious babe",
-            "heading_size": "h0"
+            "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "We are excited to bring you the best in baby products, original and high quality for your babe",
+            "text": "Premium baby products for your little one",
             "text_style": "subtitle"
           }
         },
@@ -47,12 +47,11 @@
       ],
       "settings": {
         "image": "shopify://shop_images/71RwcV4GyfL.jpg",
-        "image_2": "shopify://shop_images/pet-and-owner-on-fall-walk.jpg",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "image_behavior": "none",
-        "desktop_content_position": "middle-left",
-        "desktop_content_alignment": "left",
+        "desktop_content_position": "bottom-center",
+        "desktop_content_alignment": "center",
         "show_text_box": false,
         "color_scheme": "scheme-5",
         "stack_images_on_mobile": true,

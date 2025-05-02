@@ -10,7 +10,7 @@
   --color-header: #F8F8F7;
   --color-slate-text: #2C2C2E;
   --color-white-text: #F5F5F5;
-  --color-red: #F44336;
+  /* --color-red: #F44336; */
   }
 
 .product-card-wrapper .card,
@@ -1199,14 +1199,12 @@ button.shopify-payment-button__button--unbranded {
   --shadow-blur-radius: var(--buttons-shadow-blur-radius);
   --shadow-opacity: var(--buttons-shadow-opacity);
   --shadow-visible: var(--buttons-shadow-visible);
-  /* --border-offset: var(--buttons-border-offset); */
-  /* --border-opacity: calc(1 - var(--buttons-border-opacity)); */
-  /* border-radius: var(--buttons-radius-outset); */
+  --border-offset: var(--buttons-border-offset); 
+  --border-opacity: calc(1 - var(--buttons-border-opacity));
+  --border-radius: var(--buttons-radius-outset);
   position: relative;
-  background-color: var(--color-red) !important;
-  /* background-color:#FF7043 !important; */
-  /* background-color:#42A5F5 !important; */
-  /* background-color:#D5006D !important; */
+  
+  
   
   /* color: black !important; */
 }
