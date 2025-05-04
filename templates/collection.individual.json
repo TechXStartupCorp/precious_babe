@@ -43,19 +43,19 @@
         "featured_collection_fhdnfB": {
           "type": "featured_collection",
           "settings": {
-            "collection": "baby-clothing"
+            "collection": "essentials"
           }
         },
         "featured_collection_rkVXfC": {
           "type": "featured_collection",
           "settings": {
-            "collection": "accessories"
+            "collection": "mama-care"
           }
         },
         "featured_collection_dpADbF": {
           "type": "featured_collection",
           "settings": {
-            "collection": "footwear"
+            "collection": "sleep"
           }
         }
       },

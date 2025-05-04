@@ -36,7 +36,7 @@
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_style_secondary_2": true
           }
         }
       },
@@ -48,7 +48,7 @@
       "settings": {
         "image": "shopify://shop_images/71RwcV4GyfL.jpg",
         "image_overlay_opacity": 40,
-        "image_height": "large",
+        "image_height": "small",
         "image_behavior": "none",
         "desktop_content_position": "bottom-center",
         "desktop_content_alignment": "center",
@@ -86,10 +86,10 @@
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
-        "collection": "footwear",
+        "collection": "best-sellers",
         "products_to_show": 4,
-        "title": "Footwear",
-        "heading_size": "h1",
+        "title": "Best sellers",
+        "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
@@ -117,31 +117,31 @@
         "featured_collection1": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "essentials"
           }
         },
         "featured_collection2": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "sleep"
           }
         },
         "featured_collection3": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "mama-care"
           }
         },
         "featured_collection4": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "new-arrivals"
           }
         },
         "featured_collection5": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "best-sellers"
           }
         }
       },

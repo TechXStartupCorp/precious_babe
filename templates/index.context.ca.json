@@ -17,17 +17,17 @@
       "blocks": {
         "featured_collection1": {
           "settings": {
-            "collection": "footwear"
+            "collection": "sleep"
           }
         },
         "featured_collection2": {
           "settings": {
-            "collection": "accessories"
+            "collection": "mama-care"
           }
         },
         "featured_collection3": {
           "settings": {
-            "collection": "baby-clothing"
+            "collection": "essentials"
           }
         }
       },
