@@ -9,6 +9,49 @@
  */
 {
   "sections": {
+    "collage_R3yP8W": {
+      "type": "collage",
+      "blocks": {
+        "image_tk6imT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/71zwFWVcZ4L_16c9ae60-d106-4d9e-83af-0e58dd19de05.jpg"
+          }
+        },
+        "product_gD4nVG": {
+          "type": "product",
+          "settings": {
+            "product": "newborn-baby-girl-romper-dresses-clothes-set-short-sleeve-floral-ruffle-bow-overall-bodysuit-onesie-floral-skirt-hem-outfit",
+            "second_image": false
+          }
+        },
+        "collection_JWVEVj": {
+          "type": "collection",
+          "settings": {
+            "collection": "new-arrivals"
+          }
+        }
+      },
+      "block_order": [
+        "image_tk6imT",
+        "product_gD4nVG",
+        "collection_JWVEVj"
+      ],
+      "custom_css": [
+        "h2 {font-size: 3rem;}"
+      ],
+      "name": "t:sections.collage.presets.name",
+      "settings": {
+        "heading": "New arrivals",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "collection_list_nmtGKA": {
       "type": "collection-list",
       "blocks": {
@@ -29,12 +72,26 @@
           "settings": {
             "collection": "sleep"
           }
+        },
+        "featured_collection_L6DjMc": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "best-sellers"
+          }
+        },
+        "featured_collection_pL3tH7": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "new-arrivals"
+          }
         }
       },
       "block_order": [
         "featured_collection_fhdnfB",
         "featured_collection_rkVXfC",
-        "featured_collection_dpADbF"
+        "featured_collection_dpADbF",
+        "featured_collection_L6DjMc",
+        "featured_collection_pL3tH7"
       ],
       "custom_css": [
         "h2 {font-size: 3rem;}"
@@ -85,6 +142,7 @@
     }
   },
   "order": [
+    "collage_R3yP8W",
     "collection_list_nmtGKA",
     "banner",
     "product-grid"
