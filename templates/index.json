@@ -17,7 +17,7 @@
           "settings": {
             "badge_text_1": "Badge 1",
             "badge_text_2": "Badge 2",
-            "heading": "Your precious babe",
+            "heading": "For baby's first moments",
             "heading_size": "h1"
           }
         },
@@ -46,12 +46,12 @@
         "button"
       ],
       "settings": {
-        "image": "shopify://shop_images/71RwcV4GyfL.jpg",
+        "image": "shopify://shop_images/kids-me-germany-Zzgmde4_lYU-unsplash.jpg",
         "image_overlay_opacity": 40,
         "image_height": "small",
         "image_behavior": "none",
-        "desktop_content_position": "bottom-center",
-        "desktop_content_alignment": "center",
+        "desktop_content_position": "bottom-left",
+        "desktop_content_alignment": "left",
         "show_text_box": false,
         "color_scheme": "scheme-5",
         "stack_images_on_mobile": true,
