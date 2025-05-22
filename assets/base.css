@@ -1190,7 +1190,7 @@ deferred-media {
 .button--secondary,
 .button--tertiary {
   background-color: var(--color-purple) !important;
-  color: white !important;
+  color: #f5f5f5 !important;
   /* --color-button-text: var(--color-secondary-button-text); */
 }
 
@@ -1212,10 +1212,8 @@ button.shopify-payment-button__button--unbranded {
   --border-opacity: calc(1 - var(--buttons-border-opacity));
   --border-radius: var(--buttons-radius-outset);
   position: relative;
-  /* border-radius: 4.6px !important; */
+  border-radius: 4.6px !important;
   --color-button-text: var(--color-secondary-button-text);
-  /* border: 1px solid var(--color-white-text) !important; */
-  /* color: black !important; */
 }
 
 .button,
