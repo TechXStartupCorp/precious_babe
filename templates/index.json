@@ -111,6 +111,65 @@
         "padding_bottom": 36
       }
     },
+    "multirow_6CQQLa": {
+      "type": "multirow",
+      "blocks": {
+        "row_gNYzTn": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/0b454bf0-9904-4e06-a499-1b6122858723.jpg",
+            "caption": "Egg Toy",
+            "heading": "Hatch the Magic",
+            "text": "<p>From deep within the enchanted realms comes a thrilling surprise – our <strong>Black Dragon Toy</strong> is hatching! This fierce yet adorable dragon emerges from a cracked egg.</p>",
+            "button_label": "View more",
+            "button_link": "#"
+          }
+        },
+        "row_M93yaa": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/61HeeKYpV0L_c85926d6-40c4-4985-b6d7-66af5503da8d.jpg",
+            "caption": "Pink",
+            "heading": "Ruffle Dress",
+            "text": "<p>Swirl into sweetness with our charming <strong>Pink Ruffle Dress</strong>, designed for giggles, playdates, and picture-perfect moments. </p>",
+            "button_label": "View more",
+            "button_link": "#"
+          }
+        },
+        "row_ppbfya": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/419tuzIM9SL.jpg",
+            "caption": "Baby",
+            "heading": "Elephant Teether",
+            "text": "<p>Say goodbye to fussy moments with our adorable <strong>Elephant Teether</strong>, designed to comfort sore gums and keep little hands busy.</p>",
+            "button_label": "Button label",
+            "button_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "row_gNYzTn",
+        "row_M93yaa",
+        "row_ppbfya"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "image_layout": "alternate-left",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "collection_list": {
       "type": "collection-list",
       "blocks": {
@@ -163,69 +222,6 @@
         "swipe_on_mobile": false,
         "padding_top": 48,
         "padding_bottom": 60
-      }
-    },
-    "multicolumn1": {
-      "type": "multicolumn",
-      "blocks": {
-        "column7": {
-          "type": "column",
-          "settings": {
-            "title": "Add a customer testimonial",
-            "text": "",
-            "link_label": "Shop now",
-            "link": ""
-          }
-        },
-        "column8": {
-          "type": "column",
-          "settings": {
-            "title": "Add a customer testimonial",
-            "text": "",
-            "link_label": "Shop now",
-            "link": ""
-          }
-        },
-        "column9": {
-          "type": "column",
-          "settings": {
-            "title": "Add a customer testimonial",
-            "text": "",
-            "link_label": "Shop now",
-            "link": ""
-          }
-        },
-        "column10": {
-          "type": "column",
-          "settings": {
-            "title": "Add a customer testimonial",
-            "text": "",
-            "link_label": "Shop now",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column7",
-        "column8",
-        "column9",
-        "column10"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "button_label": "",
-        "button_link": "",
-        "columns_desktop": 4,
-        "column_alignment": "center",
-        "background_style": "none",
-        "color_scheme": "scheme-2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 68,
-        "padding_bottom": 68
       }
     },
     "featured_collection2": {
@@ -373,60 +369,67 @@
         "padding_bottom": 36
       }
     },
-    "multirow_6CQQLa": {
-      "type": "multirow",
+    "multicolumn1": {
+      "type": "multicolumn",
       "blocks": {
-        "row_gNYzTn": {
-          "type": "row",
+        "column7": {
+          "type": "column",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
-            "button_link": ""
+            "title": "Add a customer testimonial",
+            "text": "",
+            "link_label": "Shop now",
+            "link": ""
           }
         },
-        "row_M93yaa": {
-          "type": "row",
+        "column8": {
+          "type": "column",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
-            "button_link": ""
+            "title": "Add a customer testimonial",
+            "text": "",
+            "link_label": "Shop now",
+            "link": ""
           }
         },
-        "row_ppbfya": {
-          "type": "row",
+        "column9": {
+          "type": "column",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
-            "button_link": ""
+            "title": "Add a customer testimonial",
+            "text": "",
+            "link_label": "Shop now",
+            "link": ""
+          }
+        },
+        "column10": {
+          "type": "column",
+          "settings": {
+            "title": "Add a customer testimonial",
+            "text": "",
+            "link_label": "Shop now",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "row_gNYzTn",
-        "row_M93yaa",
-        "row_ppbfya"
+        "column7",
+        "column8",
+        "column9",
+        "column10"
       ],
-      "name": "t:sections.multirow.presets.name",
       "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
-        "image_layout": "alternate-left",
+        "title": "",
         "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "mobile_content_alignment": "left",
-        "section_color_scheme": "",
-        "row_color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 68,
+        "padding_bottom": 68
       }
     }
   },
@@ -434,11 +437,11 @@
     "image_banner",
     "rich_text",
     "featured_collection_cVRQ8x",
+    "multirow_6CQQLa",
     "collection_list",
-    "multicolumn1",
     "featured_collection2",
     "multicolumn2",
     "multicolumn_dTyUDX",
-    "multirow_6CQQLa"
+    "multicolumn1"
   ]
 }
