@@ -160,7 +160,7 @@
 .collection_card_image {
   display: block !important;
   width: 100% !important;
-  height: auto !important;
+  height: 100% !important;
   transform: scale(1) !important; /* Default scale */
   transition: transform 0.3s ease-in-out !important;
   will-change: transform !important;
