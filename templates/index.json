@@ -24,7 +24,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "Premium baby products for your little one",
+            "text": "Everything you need to welcome your baby into the world — from ultra-soft clothing to thoughtfully chosen essentials designed for comfort, care, and peace of mind.",
             "text_style": "subtitle"
           }
         },
@@ -241,7 +241,7 @@
     "featured_collection2": {
       "type": "featured-collection",
       "settings": {
-        "collection": "",
+        "collection": "new-arrivals",
         "products_to_show": 6,
         "title": "New arrivals",
         "heading_size": "h2",
@@ -266,97 +266,37 @@
         "padding_bottom": 52
       }
     },
-    "multicolumn2": {
-      "type": "multicolumn",
-      "blocks": {
-        "column11": {
-          "type": "column",
-          "settings": {
-            "title": "Add educational content",
-            "text": "<p>Provide content for your customers that sets their business up for success</p>",
-            "link_label": "Read now",
-            "link": ""
-          }
-        },
-        "column12": {
-          "type": "column",
-          "settings": {
-            "title": "Add educational content",
-            "text": "<p>Provide content for your customers that sets their business up for success</p>",
-            "link_label": "Read now",
-            "link": ""
-          }
-        },
-        "column13": {
-          "type": "column",
-          "settings": {
-            "title": "Add educational content",
-            "text": "<p>Provide content for your customers that sets their business up for success</p>",
-            "link_label": "Read now",
-            "link": ""
-          }
-        },
-        "column14": {
-          "type": "column",
-          "settings": {
-            "title": "Add educational content",
-            "text": "<p>Provide content for your customers that sets their business up for success</p>",
-            "link_label": "Read now",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column11",
-        "column12",
-        "column13",
-        "column14"
-      ],
-      "settings": {
-        "title": "You're set up for success",
-        "heading_size": "h2",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "button_label": "",
-        "button_link": "",
-        "columns_desktop": 4,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "color_scheme": "scheme-3",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 44,
-        "padding_bottom": 48
-      }
-    },
     "multicolumn_dTyUDX": {
       "type": "multicolumn",
       "blocks": {
         "column_bkHKiC": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/milad-fakurian-E8Ufcyxz514-unsplash.jpg",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
+            "link_label": "View",
+            "link": "#"
           }
         },
         "column_8LJLhi": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/jason-leung-Xaanw0s0pMk-unsplash.jpg",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
+            "link_label": "View",
+            "link": "#"
           }
         },
         "column_eawCTw": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/yuriy-kovalev-nN1HSDtKdlw-unsplash.jpg",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
+            "link_label": "View",
+            "link": "#"
           }
         }
       },
@@ -365,14 +305,17 @@
         "column_8LJLhi",
         "column_eawCTw"
       ],
+      "custom_css": [
+        "h2 {font-size: 3.3rem;}"
+      ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "title": "Multicolumn",
+        "title": "Limited-Time Picks",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
-        "button_label": "Button label",
-        "button_link": "",
+        "button_label": "",
+        "button_link": "#",
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "primary",
@@ -386,58 +329,49 @@
     "multicolumn1": {
       "type": "multicolumn",
       "blocks": {
-        "column7": {
-          "type": "column",
-          "settings": {
-            "title": "Add a customer testimonial",
-            "text": "",
-            "link_label": "Shop now",
-            "link": ""
-          }
-        },
         "column8": {
           "type": "column",
           "settings": {
-            "title": "Add a customer testimonial",
+            "image": "shopify://shop_images/milad-fakurian-E8Ufcyxz514-unsplash.jpg",
+            "title": "",
             "text": "",
-            "link_label": "Shop now",
+            "link_label": "",
             "link": ""
           }
         },
         "column9": {
           "type": "column",
           "settings": {
-            "title": "Add a customer testimonial",
-            "text": "",
-            "link_label": "Shop now",
+            "title": "A Must-Have for New Moms",
+            "text": "<p>Everything we ordered was adorable and incredibly soft. You can really tell it's made with care. Our baby loves it — and so do we!</p>",
+            "link_label": "",
             "link": ""
           }
         },
         "column10": {
           "type": "column",
           "settings": {
-            "title": "Add a customer testimonial",
-            "text": "",
-            "link_label": "Shop now",
+            "title": "Gentle, Safe, and Beautiful",
+            "text": "<p>\"I was looking for organic baby products and finally found the perfect store. These are the kind of items you feel good about using every day.\"</p>",
+            "link_label": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "column7",
         "column8",
         "column9",
         "column10"
       ],
       "settings": {
-        "title": "",
-        "heading_size": "h1",
+        "title": "Testimonials",
+        "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
-        "button_label": "",
-        "button_link": "",
-        "columns_desktop": 4,
-        "column_alignment": "center",
+        "button_label": "Review",
+        "button_link": "#",
+        "columns_desktop": 3,
+        "column_alignment": "left",
         "background_style": "none",
         "color_scheme": "scheme-2",
         "columns_mobile": "1",
@@ -454,7 +388,6 @@
     "multirow_6CQQLa",
     "collection_list",
     "featured_collection2",
-    "multicolumn2",
     "multicolumn_dTyUDX",
     "multicolumn1"
   ]
