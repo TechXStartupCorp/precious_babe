@@ -329,19 +329,10 @@
     "multicolumn1": {
       "type": "multicolumn",
       "blocks": {
-        "column8": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/milad-fakurian-E8Ufcyxz514-unsplash.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
         "column9": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/milad-fakurian-E8Ufcyxz514-unsplash.jpg",
             "title": "A Must-Have for New Moms",
             "text": "<p>Everything we ordered was adorable and incredibly soft. You can really tell it's made with care. Our baby loves it — and so do we!</p>",
             "link_label": "",
@@ -351,17 +342,28 @@
         "column10": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/milad-fakurian-E8Ufcyxz514-unsplash.jpg",
             "title": "Gentle, Safe, and Beautiful",
             "text": "<p>\"I was looking for organic baby products and finally found the perfect store. These are the kind of items you feel good about using every day.\"</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_FAPx6U": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/milad-fakurian-E8Ufcyxz514-unsplash.jpg",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "column8",
         "column9",
-        "column10"
+        "column10",
+        "column_FAPx6U"
       ],
       "settings": {
         "title": "Testimonials",
