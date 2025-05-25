@@ -6,15 +6,8 @@
   overflow: hidden; /* ensure overlay doesn't spill out */
 }
 
-/* //// for centered collections cards */
-/* .card-wrapper::before {
-  content: "";
-  position: absolute;
-  inset: 0; 
-  background-color: rgba(0, 0, 0, 0.4); 
-  pointer-events: none; 
-  z-index: 1; 
-} */
+
+
 
 .card {
   text-decoration: none;
@@ -76,8 +69,6 @@
 
 .card__inner {
   --ratio-percent: 100% !important;
-  /* ///////////// collection card inner neeeds to have height of 100% */
-  /* height: 100%; */
 }
 /* Needed for gradient continuity with or without animation, the transform scopes the gradient to its container which happens already when animation are turned on */
 .card--card.gradient,
@@ -85,8 +76,7 @@
   transform: perspective(0);
 }
 
-/* for custom collection card  */
-.custom_collection_card {
+.custom__collection__card {
   height: 100%;
 }
 
@@ -174,6 +164,10 @@
   transform: scale(1) !important; /* Default scale */
   transition: transform 0.3s ease-in-out !important;
   will-change: transform !important;
+}
+
+.card:hover {
+  cursor: pointer;
 }
 
 .card:hover .collection_card_image {
