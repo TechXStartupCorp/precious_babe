@@ -40,7 +40,11 @@
           }
         }
       },
-      "block_order": ["heading", "text", "button"],
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
       "settings": {
         "image": "shopify://shop_images/kids-me-germany-Zzgmde4_lYU-unsplash.jpg",
         "image_overlay_opacity": 40,
@@ -65,7 +69,9 @@
           }
         }
       },
-      "block_order": ["text"],
+      "block_order": [
+        "text"
+      ],
       "disabled": true,
       "settings": {
         "desktop_content_position": "center",
@@ -142,7 +148,11 @@
           }
         }
       },
-      "block_order": ["row_gNYzTn", "row_M93yaa", "row_ppbfya"],
+      "block_order": [
+        "row_gNYzTn",
+        "row_M93yaa",
+        "row_ppbfya"
+      ],
       "name": "t:sections.multirow.presets.name",
       "settings": {
         "image_height": "medium",
@@ -290,8 +300,14 @@
           }
         }
       },
-      "block_order": ["column_bkHKiC", "column_8LJLhi", "column_eawCTw"],
-      "custom_css": ["h2 {font-size: 3.3rem;}"],
+      "block_order": [
+        "column_bkHKiC",
+        "column_8LJLhi",
+        "column_eawCTw"
+      ],
+      "custom_css": [
+        "h2 {font-size: 3.3rem;}"
+      ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "Limited-Time Picks",
@@ -310,64 +326,8 @@
         "padding_bottom": 36
       }
     },
-    "multicolumn1": {
-      "type": "multicolumn",
-      "blocks": {
-        "column9": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/milad-fakurian-E8Ufcyxz514-unsplash.jpg",
-            "title": "A Must-Have for New Moms",
-            "text": "<p>Everything we ordered was adorable and incredibly soft. You can really tell it's made with care. Our baby loves it — and so do we!</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column10": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/milad-fakurian-E8Ufcyxz514-unsplash.jpg",
-            "title": "Gentle, Safe, and Beautiful",
-            "text": "<p>\"I was looking for organic baby products and finally found the perfect store. These are the kind of items you feel good about using every day.\"</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_FAPx6U": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/milad-fakurian-E8Ufcyxz514-unsplash.jpg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": ["column9", "column10", "column_FAPx6U"],
-      "settings": {
-        "title": "Testimonials",
-        "heading_size": "h2",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "button_label": "Review",
-        "button_link": "#",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "none",
-        "color_scheme": "scheme-2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 68,
-        "padding_bottom": 68
-      }
-    },
     "custom_testimonials_bywJeh": {
       "type": "custom-testimonials",
-      "name": "Custom Section",
-      "settings": {
-        "span_text": "this is a span"
-      },
       "blocks": {
         "block1": {
           "type": "testimonial",
@@ -394,10 +354,17 @@
           }
         }
       },
-      "block_order": ["block1", "testimonial_pNgpYq", "block2"]
+      "block_order": [
+        "block1",
+        "testimonial_pNgpYq",
+        "block2"
+      ],
+      "name": "Custom Section",
+      "settings": {
+        "heading": "Testimonials"
+      }
     }
   },
-
   "order": [
     "image_banner",
     "rich_text",
@@ -406,7 +373,6 @@
     "collection_list",
     "featured_collection2",
     "multicolumn_dTyUDX",
-    "multicolumn1",
     "custom_testimonials_bywJeh"
   ]
 }

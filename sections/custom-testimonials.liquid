@@ -7,6 +7,8 @@
     }
   
     .testimonial {
+      display: flex;
+      flex-direction: column;
       background: #f9f9f9;
       border-radius: 12px;
       padding: 1.5rem;
@@ -74,7 +76,12 @@
           "type": "image_picker",
           "id": "image",
           "label": "Image"
-        }
+        }, 
+        {
+            "type": "text",
+            "id": "date",
+            "label": "Date"
+          }
       ]
     }
   ],
