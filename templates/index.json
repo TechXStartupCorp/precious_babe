@@ -387,8 +387,31 @@
       "name": "Custom Section",
       "settings": {
         "span_text": "this is a span"
-      }
+      },
+      "blocks": {
+        "block1": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Jane Doe",
+            "text": "Adorable and soft!",
+            "image": "shopify://shop_images/image1.jpg"
+          }
+        },
+        "block2": {
+          "type": "testimonial",
+          "settings": {
+            "title": "John Smith",
+            "text": "Perfect for baby showers!",
+            "image": "shopify://shop_images/image2.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "block1",
+        "block2"
+      ]
     }
+    
   },
   "order": [
     "image_banner",
