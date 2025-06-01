@@ -6,50 +6,52 @@
   </div>
   
   {% schema %}
-  {
-    "name": "Custom Section",
-    "settings": [
-      {
-        "type": "text",
-        "id": "span_text",
-        "label": "Span Text",
-        "default": "this is a span"
-      }
-    ],
-    "blocks": [
-      {
-        "type": "testimonial",
-        "name": "Testimonial",
-        "settings": [
-          {
-            "type": "text",
-            "id": "name",
-            "label": "Name"
-          },
-          {
-            "type": "text",
-            "id": "date",
-            "label": "Date"
-          },
-          {
-            "type": "textarea",
-            "id": "text",
-            "label": "Testimonial Text"
-          },
-          {
-            "type": "image_picker",
-            "id": "image",
-            "label": "Photo"
-          }
-        ]
-      }
-    ],
-    "presets": [
-      {
-        "name": "Custom Section"
-      }
-    ]
-  }
-  {% endschema %}
+{
+  "name": "Custom Section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "span_text",
+      "label": "Span Text",
+      "default": "this is a span"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "testimonial",
+      "name": "Testimonial",
+      "settings": [
+        {
+          "type": "text",
+          "id": "name",
+          "label": "Name"
+        },
+        {
+          "type": "text",
+          "id": "date",
+          "label": "Date"
+        },
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Testimonial Text"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Photo"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 10,
+  "presets": [
+    {
+      "name": "Custom Section",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
   
   
