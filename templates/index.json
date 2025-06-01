@@ -381,6 +381,13 @@
         "padding_top": 68,
         "padding_bottom": 68
       }
+    },
+    "custom_testimonials_bywJeh": {
+      "type": "custom-testimonials",
+      "name": "Custom Section",
+      "settings": {
+        "span_text": "this is a span"
+      }
     }
   },
   "order": [
@@ -391,6 +398,7 @@
     "collection_list",
     "featured_collection2",
     "multicolumn_dTyUDX",
-    "multicolumn1"
+    "multicolumn1",
+    "custom_testimonials_bywJeh"
   ]
 }
