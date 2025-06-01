@@ -1,11 +1,20 @@
 <div style="padding: 2rem; background: #f3f3f3; text-align: center;">
     <h2>Custom Section</h2>
     <p>This is a custom section.</p>
+    <span>this is a span</span>
   </div>
   
   {% schema %}
   {
     "name": "Custom Section",
+    "settings": [
+        {
+          "type": "text",
+          "id": "span_text",
+          "label": "Span Text",
+          "default": "this is a span"
+        }
+      ],
     "presets": [
       {
         "name": "Custom Section"
