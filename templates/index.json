@@ -40,11 +40,7 @@
           }
         }
       },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
+      "block_order": ["heading", "text", "button"],
       "settings": {
         "image": "shopify://shop_images/kids-me-germany-Zzgmde4_lYU-unsplash.jpg",
         "image_overlay_opacity": 40,
@@ -69,9 +65,7 @@
           }
         }
       },
-      "block_order": [
-        "text"
-      ],
+      "block_order": ["text"],
       "disabled": true,
       "settings": {
         "desktop_content_position": "center",
@@ -148,11 +142,7 @@
           }
         }
       },
-      "block_order": [
-        "row_gNYzTn",
-        "row_M93yaa",
-        "row_ppbfya"
-      ],
+      "block_order": ["row_gNYzTn", "row_M93yaa", "row_ppbfya"],
       "name": "t:sections.multirow.presets.name",
       "settings": {
         "image_height": "medium",
@@ -300,14 +290,8 @@
           }
         }
       },
-      "block_order": [
-        "column_bkHKiC",
-        "column_8LJLhi",
-        "column_eawCTw"
-      ],
-      "custom_css": [
-        "h2 {font-size: 3.3rem;}"
-      ],
+      "block_order": ["column_bkHKiC", "column_8LJLhi", "column_eawCTw"],
+      "custom_css": ["h2 {font-size: 3.3rem;}"],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "Limited-Time Picks",
@@ -360,11 +344,7 @@
           }
         }
       },
-      "block_order": [
-        "column9",
-        "column10",
-        "column_FAPx6U"
-      ],
+      "block_order": ["column9", "column10", "column_FAPx6U"],
       "settings": {
         "title": "Testimonials",
         "heading_size": "h2",
@@ -394,7 +374,15 @@
           "settings": {
             "title": "Jane Doe",
             "text": "Adorable and soft!",
-            "image": "shopify://shop_images/image1.jpg"
+            "image": "shopify://shop_images/milad-fakurian-E8Ufcyxz514-unsplash.jpg"
+          }
+        },
+        "testimonial_pNgpYq": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Mariah",
+            "text": "i loved it!",
+            "image": "shopify://shop_images/william-daigneault-Cd84YdL9px8-unsplash.jpg"
           }
         },
         "block2": {
@@ -402,17 +390,14 @@
           "settings": {
             "title": "John Smith",
             "text": "Perfect for baby showers!",
-            "image": "shopify://shop_images/image2.jpg"
+            "image": "shopify://shop_images/yuriy-kovalev-nN1HSDtKdlw-unsplash.jpg"
           }
         }
       },
-      "block_order": [
-        "block1",
-        "block2"
-      ]
+      "block_order": ["block1", "testimonial_pNgpYq", "block2"]
     }
-    
   },
+
   "order": [
     "image_banner",
     "rich_text",
