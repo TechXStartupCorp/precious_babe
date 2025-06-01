@@ -143,7 +143,9 @@
     "custom_testimonials_8wJLHD": {
       "type": "custom-testimonials",
       "name": "Custom Section",
-      "settings": {}
+      "settings": {
+        "span_text": "i am updating the span text!"
+      }
     }
   },
   "order": [
