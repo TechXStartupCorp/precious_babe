@@ -2,7 +2,26 @@
     <h2>Custom Section</h2>
     <p>This is a custom section.</p>
     <span>{{ section.settings.span_text }}</span>
-
+  
+    <div class="testimonials">
+      {% for block in section.blocks %}
+        {% if block.type == 'testimonial' %}
+          <div class="testimonial" style="margin-top: 2rem;">
+            {% if block.settings.image %}
+                <img 
+                    src="{{ block.settings.image | img_url: '60x60' }}" 
+                    alt="{{ block.settings.name | escape }}" 
+                    width="60" 
+                    height="60" 
+                    style="border-radius: 50%; object-fit: cover;" 
+                  />
+            {% endif %}
+            <p><strong>{{ block.settings.name }}</strong> — {{ block.settings.date }}</p>
+            <p>{{ block.settings.text }}</p>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
   </div>
   
   {% schema %}
