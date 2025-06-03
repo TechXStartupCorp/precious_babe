@@ -6,6 +6,10 @@
     margin-top: 2rem;
   }
 
+  .custom-testimonials {
+    margin-bottom: 3rem;
+}
+
   .testimonial {
     display: flex;
     flex-direction: column;
@@ -49,7 +53,7 @@
   }
 </style>
 
-<section class="custom-testimonials page-width">
+<div class="custom-testimonials page-width">
   <h2 class="title inline-richtext h2">
     {{ section.settings.heading }}
   </h2>
@@ -81,7 +85,7 @@
       </div>
     {% endfor %}
   </div>
-</section>
+</div>
 
 {% schema %}
 {
