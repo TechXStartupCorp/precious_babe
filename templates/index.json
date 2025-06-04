@@ -306,6 +306,11 @@
       "settings": {
         "heading": "Testimonials"
       }
+    },
+    "custom_newsletter_with_social_epjQBf": {
+      "type": "custom-newsletter-with-social",
+      "name": "Newsletter with Social",
+      "settings": {}
     }
   },
   "order": [
@@ -315,6 +320,7 @@
     "multirow_6CQQLa",
     "collection_list",
     "featured_collection2",
-    "custom_testimonials_bywJeh"
+    "custom_testimonials_bywJeh",
+    "custom_newsletter_with_social_epjQBf"
   ]
 }

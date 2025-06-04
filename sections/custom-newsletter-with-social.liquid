@@ -5,9 +5,9 @@
     grid-template-columns: 1fr 1fr;
   }
 
-  .newsletter-social-wrapper {
+  {% comment %} .newsletter-social-wrapper {
     padding: 2rem;
-  }
+  } {% endcomment %}
 
   @media screen and (max-width: 768px) {
     .newsletter-social-grid {
@@ -49,7 +49,7 @@
 }
 {% endschema %}
 
-<div class="newsletter-social-wrapper">
+<div class="newsletter-social-wrapper page-width">
   <div class="newsletter-social-grid">
     <!-- Left side: Social Feed Placeholder -->
     <div class="social-feed">
