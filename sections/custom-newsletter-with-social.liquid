@@ -1,1 +1,76 @@
-<div>HI I AM SOCIAL MEDIA SECTION</div>
+<style>
+  .newsletter-social-grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .newsletter-social-wrapper {
+    padding: 2rem;
+  }
+
+  @media screen and (max-width: 768px) {
+    .newsletter-social-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .newsletter-signup input[type='email'] {
+    display: block;
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+  }
+
+  .newsletter-signup button {
+    padding: 0.5rem 1rem;
+  }
+
+  .success-message,
+  .error-message {
+    margin-top: 1rem;
+    color: green;
+  }
+
+  .error-message {
+    color: red;
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Newsletter with Social",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Newsletter with Social"
+    }
+  ]
+}
+{% endschema %}
+
+<div class="newsletter-social-wrapper">
+  <div class="newsletter-social-grid">
+    <!-- Left side: Social Feed Placeholder -->
+    <div class="social-feed">
+      <h2>Follow Us</h2>
+      <p>Embed your Instagram / TikTok / Twitter feed here.</p>
+    </div>
+
+    <!-- Right side: Newsletter Form -->
+    <div class="newsletter-signup">
+      <h2>Join Our Newsletter</h2>
+      {% form 'customer' %}
+        <label for="NewsletterEmail">Email address</label>
+        <input type="email" name="contact[email]" id="NewsletterEmail" placeholder="Your email" required>
+        <button type="submit">Subscribe</button>
+
+        {% if form.posted_successfully? %}
+          <p class="success-message">Thanks for subscribing!</p>
+        {% elsif form.errors %}
+          <p class="error-message">Please enter a valid email.</p>
+        {% endif %}
+      {% endform %}
+    </div>
+  </div>
+</div>
