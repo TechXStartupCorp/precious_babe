@@ -310,7 +310,9 @@
     "custom_newsletter_with_social_epjQBf": {
       "type": "custom-newsletter-with-social",
       "name": "Newsletter with Social",
-      "settings": {}
+      "settings": {
+        "social_heading": "Follow us on instagram @babystore"
+      }
     }
   },
   "order": [
