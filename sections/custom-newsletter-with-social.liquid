@@ -40,7 +40,14 @@
 {% schema %}
 {
   "name": "Newsletter with Social",
-  "settings": [],
+  "settings": [
+    {
+      "type": "text",
+      "id": "social_heading",
+      "label": "Social Heading",
+      "default": "Follow Us"
+    }
+  ],
   "presets": [
     {
       "name": "Newsletter with Social"
@@ -53,7 +60,7 @@
   <div class="newsletter-social-grid">
     <!-- Left side: Social Feed Placeholder -->
     <div class="social-feed">
-      <h2>Follow Us</h2>
+        <h2>{{ section.settings.social_heading }}</h2>
       <p>Embed your Instagram / TikTok / Twitter feed here.</p>
     </div>
 
