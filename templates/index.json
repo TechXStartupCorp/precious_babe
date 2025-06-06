@@ -311,7 +311,10 @@
       "type": "custom-newsletter-with-social",
       "name": "Newsletter with Social",
       "settings": {
-        "social_heading": "Follow us on instagram @babystore"
+        "social_heading": "Follow us on instagram @babystore",
+        "image_1": "shopify://shop_images/ferdinand-stohr-NFs6dRTBgaM-unsplash.jpg",
+        "image_2": "shopify://shop_images/william-daigneault-Cd84YdL9px8-unsplash.jpg",
+        "image_3": "shopify://shop_images/jason-leung-Xaanw0s0pMk-unsplash.jpg"
       }
     }
   },

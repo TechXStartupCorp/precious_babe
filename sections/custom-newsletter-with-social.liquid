@@ -1,18 +1,64 @@
 <style>
-  .newsletter-social-grid {
-    display: grid;
-    gap: 2rem;
-    grid-template-columns: 1fr 1fr;
+  .newsletter-social-wrapper {
+    margin-bottom: 5rem;
   }
 
-  {% comment %} .newsletter-social-wrapper {
-    padding: 2rem;
-  } {% endcomment %}
+  .email-subscribe-header {
+    margin-bottom: 1rem !important;
+  }
+
+  .email-subscribe-input {
+    border: 1px solid #d5d2d2 !important;
+    border-radius: 3px !important;
+    padding: 0.9rem !important;
+    margin: 1rem 0 !important;
+}
+
+  .newsletter-social-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    align-items: stretch;
+  }
 
   @media screen and (max-width: 768px) {
     .newsletter-social-grid {
       grid-template-columns: 1fr;
     }
+  }
+  .instagram-placeholder-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    height: 100%; /* Make sure this grid fills its parent */
+  }
+
+  .image-cell {
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+  }
+
+  .image-cell img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  @media screen and (max-width: 768px) {
+    .instagram-placeholder-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .instagram-placeholder-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .newsletter-signup {
+    justify-content: end;
   }
 
   .newsletter-signup input[type='email'] {
@@ -76,15 +122,55 @@
     <!-- Left side: Social Feed Placeholder -->
     <div class="social-feed">
       <h2>{{ section.settings.social_heading }}</h2>
+      <div class="instagram-placeholder-grid">
+        {% if section.settings.image_1 %}
+          <div class="image-cell">
+            <img
+              src="{{ section.settings.image_1 | image_url: width: 1000 }}"
+              width="100"
+              height="100"
+              loading="lazy"
+              alt="Placeholder 1"
+              style="object-fit: cover; width: 100%; height: 100%;"
+            >
+          </div>
+        {% endif %}
+
+        {% if section.settings.image_2 %}
+          <div class="image-cell">
+            <img
+              src="{{ section.settings.image_2 | image_url: width: 1000 }}"
+              width="100"
+              height="100"
+              loading="lazy"
+              alt="Placeholder 2"
+              style="object-fit: cover; width: 100%; height: 100%;"
+            >
+          </div>
+        {% endif %}
+
+        {% if section.settings.image_3 %}
+          <div class="image-cell">
+            <img
+              src="{{ section.settings.image_3 | image_url: width: 1000 }}"
+              width="100"
+              height="100"
+              loading="lazy"
+              alt="Placeholder 3"
+              style="object-fit: cover; width: 100%; height: 100%;"
+            >
+          </div>
+        {% endif %}
+      </div>
     </div>
 
     <!-- Right side: Newsletter Form -->
-    <div class="newsletter-signup">
-      <h2>Join Our Newsletter</h2>
+    <div class="newsletter-signup flex flex-column">
+      <h2 class="email-subscribe-header">Get 10% off your first order</h2>
       {% form 'customer' %}
-        <label for="NewsletterEmail">Email address</label>
-        <input type="email" name="contact[email]" id="NewsletterEmail" placeholder="Your email" required>
-        <button type="submit">Subscribe</button>
+        {% comment %} <label for="NewsletterEmail">Email address</label> {% endcomment %}
+        <input class="email-subscribe-input" type="email" name="contact[email]" id="NewsletterEmail" placeholder="Your email" required>
+        <button class="button" type="submit">Subscribe</button>
 
         {% if form.posted_successfully? %}
           <p class="success-message">Thanks for subscribing!</p>
