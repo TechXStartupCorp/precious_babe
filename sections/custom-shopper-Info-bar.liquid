@@ -1,43 +1,53 @@
 <div class="page-width">i am custom shoopper info bar</div>
 
-{% schema %}
-{
-  "name": "Shopper Info Bar",
-  "blocks": [
-    {
-      "type": "info",
-      "name": "Info Item",
-      "settings": [
-        {
-          "type": "image_picker",
-          "id": "icon",
-          "label": "Icon"
-        },
-        {
-          "type": "text",
-          "id": "text",
-          "label": "Text",
-          "default": "Free shipping across Canada"
-        }
-      ]
-    }
-  ],
-  "max_blocks": 3,
-  "presets": [
+{{% schema %}
     {
       "name": "Shopper Info Bar",
       "blocks": [
         {
-          "type": "info"
-        },
+          "type": "info",
+          "name": "Info Item",
+          "settings": [
+            {
+              "type": "image_picker",
+              "id": "icon",
+              "label": "Icon"
+            },
+            {
+              "type": "text",
+              "id": "text",
+              "label": "Text",
+              "default": "Free shipping across Canada"
+            }
+          ]
+        }
+      ],
+      "max_blocks": 3,
+      "presets": [
         {
-          "type": "info"
-        },
-        {
-          "type": "info"
+          "name": "Shopper Info Bar",
+          "blocks": [
+            {
+              "type": "info",
+              "settings": {
+                "text": "Free Toronto Delivery"
+              }
+            },
+            {
+              "type": "info",
+              "settings": {
+                "text": "Free Canada-wide Shipping"
+              }
+            },
+            {
+              "type": "info",
+              "settings": {
+                "text": "Contact Us Anytime"
+              }
+            }
+          ]
         }
       ]
     }
-  ]
-}
-{% endschema %}
+    {% endschema %}
+    
