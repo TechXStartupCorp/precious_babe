@@ -275,7 +275,8 @@
             "title": "Jane Doe",
             "text": "This product completely exceeded my expectations! The quality and attention to detail are outstanding. I highly recommend it to everyone looking for something reliable and stylish.",
             "image": "shopify://shop_images/milad-fakurian-E8Ufcyxz514-unsplash.jpg",
-            "date": "May 30, 2025"
+            "date": "May 30, 2025",
+            "rating": 5
           }
         },
         "testimonial_pNgpYq": {
@@ -284,7 +285,8 @@
             "title": "Mariah",
             "text": "Excellent customer service and fast delivery. I had a few questions before purchasing and the support team was very helpful and patient. I’m very satisfied with my experience.",
             "image": "shopify://shop_images/william-daigneault-Cd84YdL9px8-unsplash.jpg",
-            "date": "March 21, 2025"
+            "date": "March 21, 2025",
+            "rating": 5
           }
         },
         "block2": {
@@ -293,7 +295,8 @@
             "title": "John Smith",
             "text": "I was hesitant at first, but after trying it, I can confidently say this is one of the best investments I've made. The product works perfectly and the team behind it truly cares about their customers.",
             "image": "shopify://shop_images/yuriy-kovalev-nN1HSDtKdlw-unsplash.jpg",
-            "date": "Jan 30, 2025"
+            "date": "Jan 30, 2025",
+            "rating": 5
           }
         }
       },
@@ -302,7 +305,7 @@
         "testimonial_pNgpYq",
         "block2"
       ],
-      "name": "Custom Section",
+      "name": "Testimonials ",
       "settings": {
         "heading": "Testimonials"
       }

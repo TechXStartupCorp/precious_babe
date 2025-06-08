@@ -8,6 +8,10 @@
 
   .custom-testimonials {
     margin-bottom: 3rem;
+  }
+
+  .testimonials-title {
+    {% comment %} margin: 2rem !important; {% endcomment %}
 }
 
   .testimonial {
@@ -23,6 +27,16 @@
   .testimonial-avatar {
     border-radius: 50%;
     margin-bottom: 1rem;
+  }
+
+  .testimonial-rating {
+    margin-top: 1rem;
+    align-items: start;
+    gap: 0.5rem;
+  }
+
+  .star {
+    background-color: gold;
   }
 
   .reviewer-info-container {
@@ -45,7 +59,7 @@
 
   .text-container p {
     color: var(--color-grey-text);
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 
   .testimonial-text {
@@ -54,7 +68,7 @@
 </style>
 
 <div class="custom-testimonials page-width">
-  <h2 class="title inline-richtext h2">
+  <h2 class="testimonials-title title inline-richtext h2">
     {{ section.settings.heading }}
   </h2>
   <div class="testimonials-grid">
@@ -81,7 +95,39 @@
             <p>{{ block.settings.date }}</p>
           </div>
         </div>
-        <p class="testimonial-text">"{{ block.settings.text }}"</p>
+        <p class="testimonial-text">{{ block.settings.text }}</p>
+        <div class="testimonial-rating flex gap-1">
+          {% assign rating = block.settings.rating | default: 5 %}
+          {% for i in (1..5) %}
+            {% if i <= rating %}
+              <!-- Filled Star -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="#facc15"
+                width="20"
+                height="20"
+                aria-hidden="true"
+              >
+                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.96a1 1 0 00.95.69h4.162c.969 0 1.371 1.24.588 1.81l-3.37 2.45a1 1 0 00-.364 1.118l1.286 3.96c.3.921-.755 1.688-1.54 1.118l-3.37-2.45a1 1 0 00-1.175 0l-3.37 2.45c-.785.57-1.84-.197-1.54-1.118l1.286-3.96a1 1 0 00-.364-1.118l-3.37-2.45c-.783-.57-.38-1.81.588-1.81h4.162a1 1 0 00.95-.69l1.286-3.96z"/>
+              </svg>
+            {% else %}
+              <!-- Empty Star -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="#facc15"
+                stroke-width="1.5"
+                width="20"
+                height="20"
+                aria-hidden="true"
+              >
+                <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499l2.125 5.111a.563.563 0 00.475.345l5.518.442-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385-4.725-2.885a.562.562 0 00-.586 0L6.982 20.54l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602 5.518-.442a.563.563 0 00.475-.345l2.125-5.111z" />
+              </svg>
+            {% endif %}
+          {% endfor %}
+        </div>
       </div>
     {% endfor %}
   </div>
@@ -153,5 +199,3 @@
   ]
 }
 {% endschema %}
-
-
