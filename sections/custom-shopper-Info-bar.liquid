@@ -29,8 +29,14 @@
         {
           "type": "text",
           "id": "text",
-          "label": "Text",
+          "label": "Main Text",
           "default": "Free shipping across Canada"
+        },
+        {
+          "type": "text",
+          "id": "subtext",
+          "label": "Subtext",
+          "default": "On all orders over $50"
         }
       ]
     }
@@ -38,8 +44,13 @@
   "presets": [
     {
       "name": "Shopper Info Bar",
-      "blocks": [{ "type": "info" }, { "type": "info" }, { "type": "info" }]
+      "blocks": [
+        { "type": "info" },
+        { "type": "info" },
+        { "type": "info" }
+      ]
     }
   ]
 }
 {% endschema %}
+
