@@ -1,11 +1,79 @@
+<style>
+  .shopper-info-bar {
+    margin-top: 3rem;
+  }
+  .info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    padding-block: 2rem;
+  }
+
+  .info-block {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .info-link {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .cursor-pointer {
+    cursor: pointer;
+  }
+
+  .icon svg {
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    stroke: currentColor;
+    margin-top: 3px;
+  }
+
+  .text .main-text {
+    font-weight: 600;
+    font-size: 1.8rem;
+  }
+
+  .text .sub-text {
+    font-size: 1.6rem;
+    color: #8e8d8d;
+    margin-top: -2px;
+  }
+</style>
+
 <div class="shopper-info-bar page-width">
   <div class="info-grid">
     {% for block in section.blocks %}
+      {% assign icon = block.settings.icon_svg %}
+      {% assign main_text = block.settings.main_text %}
+      {% assign subtext = block.settings.subtext %}
+      {% assign link = block.settings.link %}
+
       <div class="info-block">
-        <div class="icon">
-          {{ block.settings.icon_svg }}
+        {% if link != blank %}
+          <a href="{{ link }}" class="info-link cursor-pointer">
+        {% endif %}
+
+        <div class="icon" aria-hidden="true">
+          {{ icon }}
         </div>
-        <p>{{ block.settings.text }}</p>
+
+        <div class="text">
+          <div class="main-text">{{ main_text }}</div>
+          {% if subtext != blank %}
+            <div class="sub-text">{{ subtext }}</div>
+          {% endif %}
+        </div>
+
+        {% if link != blank %}
+          </a>
+        {% endif %}
       </div>
     {% endfor %}
   </div>
@@ -49,17 +117,8 @@
   "presets": [
     {
       "name": "Shopper Info Bar",
-      "blocks": [
-        { "type": "info" },
-        { "type": "info" },
-        { "type": "info" }
-      ]
+      "blocks": [{ "type": "info" }, { "type": "info" }, { "type": "info" }]
     }
   ]
 }
 {% endschema %}
-
-
-
-
-
