@@ -316,6 +316,11 @@
         "image_2": "shopify://shop_images/william-daigneault-Cd84YdL9px8-unsplash.jpg",
         "image_3": "shopify://shop_images/jason-leung-Xaanw0s0pMk-unsplash.jpg"
       }
+    },
+    "custom_shopper_info_bar_jTkC8X": {
+      "type": "custom-shopper-Info-bar",
+      "name": "Shopper Info Bar",
+      "settings": {}
     }
   },
   "order": [
@@ -326,6 +331,7 @@
     "collection_list",
     "featured_collection2",
     "custom_testimonials_bywJeh",
-    "custom_newsletter_with_social_epjQBf"
+    "custom_newsletter_with_social_epjQBf",
+    "custom_shopper_info_bar_jTkC8X"
   ]
 }
