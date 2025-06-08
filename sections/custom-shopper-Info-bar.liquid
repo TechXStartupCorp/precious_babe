@@ -21,14 +21,8 @@
       "name": "Info Item",
       "settings": [
         {
-          "type": "textarea",
-          "id": "icon_svg",
-          "label": "SVG Icon",
-          "default": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' stroke='currentColor' viewBox='0 0 24 24'><path d='M5 12h14' /></svg>"
-        },
-        {
           "type": "text",
-          "id": "text",
+          "id": "main_text",
           "label": "Main Text",
           "default": "Free shipping across Canada"
         },
@@ -36,7 +30,12 @@
           "type": "text",
           "id": "subtext",
           "label": "Subtext",
-          "default": "On all orders over $50"
+          "default": ""
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Optional Link"
         }
       ]
     }
@@ -53,4 +52,5 @@
   ]
 }
 {% endschema %}
+
 
