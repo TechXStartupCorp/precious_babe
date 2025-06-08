@@ -1,53 +1,49 @@
-<div class="page-width">i am custom shoopper info bar</div>
+<div class="shopper-info-bar page-width">
+  <div class="info-grid">
+    {% for block in section.blocks %}
+      <div class="info-item">
+        {% if block.settings.icon %}
+          <img src="{{ block.settings.icon | img_url: '100x100' }}" width="100px" height="100px" alt="Icon">
+        {% endif %}
+        <p>{{ block.settings.text }}</p>
+      </div>
+    {% endfor %}
+  </div>
+</div>
 
 {% schema %}
+{
+  "name": "Shopper Info Bar",
+  "max_blocks": 3,
+  "blocks": [
     {
-      "name": "Shopper Info Bar",
-      "blocks": [
+      "type": "info",
+      "name": "Info Item",
+      "settings": [
         {
-          "type": "info",
-          "name": "Info Item",
-          "settings": [
-            {
-              "type": "image_picker",
-              "id": "icon",
-              "label": "Icon"
-            },
-            {
-              "type": "text",
-              "id": "text",
-              "label": "Text",
-              "default": "Free shipping across Canada"
-            }
-          ]
-        }
-      ],
-      "max_blocks": 3,
-      "presets": [
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Icon"
+        },
         {
-          "name": "Shopper Info Bar",
-          "blocks": [
-            {
-              "type": "info",
-              "settings": {
-                "text": "Free Toronto Delivery"
-              }
-            },
-            {
-              "type": "info",
-              "settings": {
-                "text": "Free Canada-wide Shipping"
-              }
-            },
-            {
-              "type": "info",
-              "settings": {
-                "text": "Contact Us Anytime"
-              }
-            }
-          ]
+          "type": "text",
+          "id": "text",
+          "label": "Text",
+          "default": "Free shipping across Canada"
         }
       ]
     }
-    {% endschema %}
-    
+  ],
+  "presets": [
+    {
+      "name": "Shopper Info Bar",
+      "blocks": [
+        { "type": "info" },
+        { "type": "info" },
+        { "type": "info" }
+      ]
+    }
+  ]
+}
+{% endschema %}
+
