@@ -14,16 +14,32 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "text_gaKRnV": {
+          "type": "text",
+          "settings": {
+            "heading": "Precious Babe",
+            "subtext": "<p>Precious Babe is owned and operated by Simran Babbar, and was launched in 2025 for new mothers and their newborns.</p>"
+          }
+        },
         "link_list": {
           "type": "link_list",
           "settings": {
             "heading": "Quick links",
-            "menu": "footer"
+            "menu": "main-menu"
+          }
+        },
+        "link_list_8N6LQA": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Legal",
+            "menu": "legal"
           }
         }
       },
       "block_order": [
-        "link_list"
+        "text_gaKRnV",
+        "link_list",
+        "link_list_8N6LQA"
       ],
       "settings": {
         "color_scheme": "scheme-4",
